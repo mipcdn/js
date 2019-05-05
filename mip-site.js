@@ -1,1 +1,1 @@
-  var
+ console.log('mip-script executed')
